@@ -136,14 +136,7 @@ export const getDefault = function() {
         }
     });
 
-    items.push({
-        type: 'color',
-        content: 'format_color_text',
-        k: 'color',
-        updateState: function(a, b, toolbarItem) {
-            setItemStatus(toolbarItem, getActive());
-        }
-    });
+    
 
     items.push({
         type: 'color',
